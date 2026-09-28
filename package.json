@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/splitref",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Split config/ref key checks for twelve-factor services.",
+  "bin": {
+    "splitref": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/splitref.git"
+  },
+  "homepage": "https://theworker02.github.io/splitref/",
+  "keywords": [
+    "split",
+    "ref",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
